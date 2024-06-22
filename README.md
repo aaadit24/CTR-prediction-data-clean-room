@@ -20,7 +20,7 @@ This project demonstrates a prototype for Click-Through Rate (CTR) prediction us
 - `train_data_ads.csv`
 
 2. Run the Data Clean Room script:
-`python data_clean_room.py`
+`python src/data_clean_room.py`
 This script will:
 - Load and preprocess the data
 - Calculate aggregate statistics
