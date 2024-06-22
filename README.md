@@ -40,6 +40,14 @@ The scripts will generate several output files:
 - `distribution_comparison_*.png`: Plots comparing the distributions of original and synthetic data for each feature
 - `feature_importance.png`: A bar plot showing the importance of each feature in the CTR prediction model
 
+## Data Setup
+
+Place your training data files in the `data/train/` directory:
+- `data/train/train_data_feeds.csv`
+- `data/train/train_data_ads.csv`
+
+Note: The data files are not included in this repository and should be obtained separately.
+
 ## Approach
 
 This prototype demonstrates a Data Clean Room approach for CTR prediction:
